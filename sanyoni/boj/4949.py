@@ -1,3 +1,5 @@
+# 균형있는 문자열인지에 대한 여부를 판별하는 함수입니다
+# 문자열 내의 모든 괄호가 알맞은 짝이 있다면 True를 반환합니다
 def is_balanced_string(string: str):
     brackets_stack = list()
 
