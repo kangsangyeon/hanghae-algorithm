@@ -3,6 +3,7 @@ stack_log_list = list()
 push_index = 0
 
 
+# 스택의 최상단에 수를 하나 더 쌓습니다
 def stack_push():
     global stack, push_or_pop_list, push_index
 
@@ -11,6 +12,7 @@ def stack_push():
     push_index += 1
 
 
+# 스택 최상단의 요소를 빼냅니다
 def stack_pop():
     global stack, push_or_pop_list
 
