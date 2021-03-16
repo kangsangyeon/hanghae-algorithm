@@ -22,5 +22,3 @@ for i in range(0, input_strings_count):
         group_word_count += 1
 
 print(group_word_count)
-
-aabbcca
